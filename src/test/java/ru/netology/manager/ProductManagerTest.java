@@ -110,5 +110,4 @@ class ProductManagerTest {
         Product[] actual = manager.searchBy(text);
         assertArrayEquals(expected, actual);
     }
-
 }
